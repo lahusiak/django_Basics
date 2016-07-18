@@ -8,6 +8,10 @@
     </head>
     <body>
         <div class = "site-container">
+            <nav>
+                <a href=" {%  url 'views.hello_world' %}">Home</a>
+                <a href=" {%  url 'courses:list' %}">Courses</a>
+            </nav>
             {% block content %}{% endblock %}
      </div>
     </body>
